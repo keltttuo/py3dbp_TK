@@ -1,8 +1,12 @@
 class RotationType:
     RT_WHD = 0
-    RT_DHW = 1
+    RT_HWD = 1
+    RT_HDW = 2
+    RT_DHW = 3
+    RT_DWH = 4
+    RT_WDH = 5
+    ALL = [RT_WHD, RT_DHW]  # Only allow bottom-down rotatio
 
-    ALL = [RT_WHD, RT_DHW]
 
 
 class Axis:
